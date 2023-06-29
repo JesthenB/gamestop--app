@@ -1,0 +1,28 @@
+.content-container{
+    border: 5px;
+    border-color: red;
+    border-style: solid;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(1fr) ;
+}
+
+.content-item{
+    border: 3px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.version{
+    justify-content: center;
+    align-items: center;
+}
+
+.image-carousel{
+    grid-row: span 5;
+}
+
+.version{
+    grid-row: span 5 ;
+}

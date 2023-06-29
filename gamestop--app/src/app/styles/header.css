@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: sticky 0;
+    
 }
 
 .gray-header{
@@ -31,6 +33,7 @@
 .white-header{
     display: flex;
     align-items: center;
+    background-color: white;
 }
 
 .menu-icon{
@@ -44,19 +47,23 @@
 .sign-in{
     font: 12px "Open sans",sans-serif;
     color: #000000;
+    font-weight: 600;
 }
 
 .shopping-cart{
     font: 12px "Open sans",sans-serif;
     color: #000000;
+    font-weight: 600;
 }
 
 .trade-in{
     font: 12px "Open sans",sans-serif;
     color: #000000;
+    font-weight: 600;
 }
 
 .gamestop-pro{
     font: 12px "Open sans",sans-serif;
     color: #000000;
+    font-weight: 600;
 }

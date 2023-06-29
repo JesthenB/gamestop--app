@@ -1,19 +1,20 @@
 import React from "react";
 import "../styles/header.css";
 
+
 export default function HeaderNavBar() {
   return (
     <>
       <div className="headerNavBar">
         <div className="gray-header">
-          <h1 className="gray-text">Free 1-3 Day Shipping Over $79</h1> <br />
+            <h1 className="gray-text">Free 1-3 Day Shipping Over $79</h1> <br />
         </div>
 
         <div className="gradient-header">
-          <h1 className="gradient-text">
-            Get $70 In Value* Just For Signing Up <br />
-            Welcome to the all-new GameStop Pro!
-          </h1>
+            <h1 className="gradient-text">
+              Get $70 In Value* Just For Signing Up <br />
+              Welcome to the all-new GameStop Pro!
+            </h1>
         </div>
 
         <div className="white-header">
@@ -34,7 +35,7 @@ export default function HeaderNavBar() {
               placeholder="Search games, consoles & more"
             ></input>
           </form>
-          <div className="trade-in">
+          <div className="trade-in material-icons">
             <span></span>
             <span>Trade In</span>
           </div>
@@ -42,12 +43,13 @@ export default function HeaderNavBar() {
             <span></span>
             <span>GameStop Pro</span>
           </div>
-          <div className="sign-in">
+          <div className="sign-in material-icons material-icons-outlined account">
             <span></span>
             <span>Sign in</span>
           </div>
-          <div className="shopping-cart">
+          <div className="shopping-cart shopping-cart d-none d-md-block material-icons material-icons-outlined">
             <span><img src="/gamestop-pro-logo"/></span>
+            <span>cart</span>
           </div>
         </div>
         <hr />
