@@ -4,6 +4,7 @@ import Features from "./components/features"
 import productDescription from "./components/productDescription"
 import './globals.css'
 import Content from "./components/content/content"
+import Footer from "./components/footer"
 
 
 
@@ -13,6 +14,7 @@ export default function Home() {
     <div className="home">
       <HeaderNavBar/>
       <Content/>
+      <Footer /> 
     </div>
   )
 }
