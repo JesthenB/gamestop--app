@@ -1,10 +1,10 @@
 import React from "react";
-import '/styles/productDescription.css'
+import '../styles/productDescription.css'
 
-function HeaderNavBar (){
+function productDescription (){
     return (
         <></>
     )
 }
 
-export default HeaderNavBar 
+export default productDescription

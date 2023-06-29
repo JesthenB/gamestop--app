@@ -1,0 +1,38 @@
+.headerNavBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gray-header{
+    display: flex;
+    background-color: #282828;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font: 16px "Open sans",sans-serif;
+}
+
+.gradient-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #8d2d92, #141330);
+    font: 16px "Open sans",sans-serif;
+
+}
+
+.gradient-header:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.white-header{
+    display: flex;
+    align-items: center;
+}
+
+.searchbox{
+
+}
