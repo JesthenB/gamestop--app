@@ -33,6 +33,30 @@
     align-items: center;
 }
 
-.searchbox{
+.menu-icon{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
 
+
+.sign-in{
+    font: 12px "Open sans",sans-serif;
+    color: #000000;
+}
+
+.shopping-cart{
+    font: 12px "Open sans",sans-serif;
+    color: #000000;
+}
+
+.trade-in{
+    font: 12px "Open sans",sans-serif;
+    color: #000000;
+}
+
+.gamestop-pro{
+    font: 12px "Open sans",sans-serif;
+    color: #000000;
 }
