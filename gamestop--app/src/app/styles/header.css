@@ -1,10 +1,9 @@
-.headerNavBar{
+.headerNavBar {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: sticky 0;
-    
 }
+
 
 .gray-header{
     display: flex;
@@ -30,10 +29,13 @@
 
 }
 
-.white-header{
+.white-header {
     display: flex;
     align-items: center;
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .menu-icon{

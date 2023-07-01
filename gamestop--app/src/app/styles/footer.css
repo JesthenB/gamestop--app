@@ -1,13 +1,22 @@
-.footer-container{
+.list-container{
     display: flex;
-    border: 4px;
+    border: 6px;
     border-style: solid;
-    border-color: yellow;
-    width: 1244.8px;
+    border-color: rgb(0, 217, 255);
     height: 365.55px;
+    width: 100%;
     color: #121212;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.sign-up-item{
+display: flex;
+height: 365.55px;
+width: 33%;
+border: 6px;
+border-style: solid;
+border-color: rgb(0, 255, 26);
+margin-left: 0;
 }
 
 li{

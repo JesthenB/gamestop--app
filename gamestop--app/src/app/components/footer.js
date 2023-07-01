@@ -3,8 +3,8 @@ import '../styles/footer.css'
 
 function Footer (){
     return (
-        <div className="footer-container">
-        <hr/>
+        <div>
+        <div className="list-container">
         <div>
         <h3>GET HELP</h3>
         <ul>
@@ -36,7 +36,15 @@ function Footer (){
             <li><a href="#">Game Informer</a></li>
         </ul>
     </div>
+    <div className="sign-up-item">
+<h3>Sign up</h3>
+<h5>Get exclusive promotions, coupons, and the latest events</h5>
+<h2>GET THE APP</h2>
+<h2>CONNECT WITH US</h2>
+</div>
         </div>
+
+    </div>
     )
 }
 
