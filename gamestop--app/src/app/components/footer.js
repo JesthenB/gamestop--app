@@ -54,16 +54,15 @@ function Footer (){
 
         </div>
         <div>
-        <h2>CONNECT WITH US</h2>
-            Social media tags
-            <img src='facebook-icon.png' alt="facebook-icon" style={{height:'32px',width:'32px'}}/>
-            <img src='youtube-icon.png' alt="youtube-icon" style={{height:'32px',width:'32px'}}/>
-            <img src='twitter-icon.png' alt="twitter-icon" style={{height:'32px',width:'32px'}}/>
-            <img src='instagram-icon.png' alt="instagram-icon" style={{height:'32px',width:'32px'}}/>
+        <h1 style={{font:'16px poppins', fontWeight:'600px'}}>CONNECT WITH US</h1>
+            <img className='social-icon' src='facebook-icon.png' alt="facebook-icon" style={{height:'32px',width:'32px'}}/>
+            <img className='social-icon' src='youtube-icon.png' alt="youtube-icon" style={{height:'32px',width:'32px'}}/>
+            <img className='social-icon' src='twitter-icon.png' alt="twitter-icon" style={{height:'32px',width:'32px'}}/>
+            <img className='social-icon' src='instagram-icon.png' alt="instagram-icon" style={{height:'32px',width:'32px'}}/>
 
         </div>
     </div>
-    <div className="languages">
+    {/* <div className="languages">
         <h4>© 1999-2023 GameStop</h4>
         <h5>Australia & New Zealand 
             Austria 
@@ -72,9 +71,12 @@ function Footer (){
             Germany 
             Italy
         </h5>
-    </div>
+    </div> */}
         </div>
-
+    <div className="sticky-footer">
+    <div className="game-and-price">game title and price</div>
+    <button className="add-to-cart-footer-button">Add to cart</button>
+    </div>
     </div>
     )
 }

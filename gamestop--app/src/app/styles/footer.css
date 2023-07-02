@@ -1,41 +1,74 @@
-.list-container{
-    display: flex;
-    border: 6px;
-    border-style: solid;
-    border-color: rgb(0, 217, 255);
-    height: 365.55px;
-    width: 100%;
-    color: #121212;
-    justify-content: space-between;
+.list-container {
+  display: flex;
+  border: 6px;
+  border-style: solid;
+  border-color: rgb(0, 217, 255);
+  height: 365.55px;
+  width: 100%;
+  color: #121212;
+  justify-content: space-between;
 }
 
-.sign-up-item-container{
-display: flex;
-flex-direction: column;
-gap: 20px;
-align-items: center;
-height: 365.55px;
-width: 33%;
-border: 6px;
-border-style: solid;
-border-color: rgb(0, 255, 26);
-margin-left: 0;
+.sign-up-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  height: 365.55px;
+  width: 33%;
+  border: 6px;
+  border-style: solid;
+  border-color: rgb(0, 255, 26);
+  margin-left: 0;
 }
 
-li{
-    text-decoration: none;
-    list-style: none;
+li {
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
 }
 
-a{
-    text-decoration: none;
-    color: #121212;
+a {
+  text-decoration: none;
+  color: #121212;
 }
 
-.lanuages{
-    border: 6px;
-    border-style: solid;
-    border-color: rgb(255, 0, 149);
-    width: 66%;
-    height: 10%;
+.lanuages {
+  border: 6px;
+  border-style: solid;
+  border-color: rgb(255, 0, 149);
+  width: 66%;
+  height: 10%;
+}
+
+.sticky-footer{
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+}
+
+
+.add-to-cart-footer-button {
+    align-self: flex-end;
+  background-color: #e72318;
+  background-image: none;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 0;
+  width: 90px;
+
+}
+
+.add-to-cart-footer-button:hover{
+    cursor: pointer;
+    width: 40px;
+}
+
+.game-and-price, .add-to-cart-footer-button {
+    flex: 1;
 }
