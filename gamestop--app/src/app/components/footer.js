@@ -36,12 +36,43 @@ function Footer (){
             <li><a href="#">Game Informer</a></li>
         </ul>
     </div>
-    <div className="sign-up-item">
-<h3>Sign up</h3>
-<h5>Get exclusive promotions, coupons, and the latest events</h5>
-<h2>GET THE APP</h2>
-<h2>CONNECT WITH US</h2>
-</div>
+    <div className="sign-up-item-container">
+        <div>
+        <h3>Sign up</h3>
+        <div>Get Exclusive Promotions, Coupons, and the Latest Events</div>
+        </div>
+        <div>
+            <h2>GET THE APP</h2>
+           <img src='https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/v1688255502977/images/play-store.png' alt="google-play-banner" style={{
+            width: '137px',
+            height: '40px'
+           }}/>
+            <img src='App_Store_Badge.webp' style={{
+                width: "137px", 
+                height: "40px"
+            }}/>
+
+        </div>
+        <div>
+        <h2>CONNECT WITH US</h2>
+            Social media tags
+            <img src='facebook-icon.png' alt="facebook-icon" style={{height:'32px',width:'32px'}}/>
+            <img src='youtube-icon.png' alt="youtube-icon" style={{height:'32px',width:'32px'}}/>
+            <img src='twitter-icon.png' alt="twitter-icon" style={{height:'32px',width:'32px'}}/>
+            <img src='instagram-icon.png' alt="instagram-icon" style={{height:'32px',width:'32px'}}/>
+
+        </div>
+    </div>
+    <div className="languages">
+        <h4>© 1999-2023 GameStop</h4>
+        <h5>Australia & New Zealand 
+            Austria 
+            Canada 
+            France 
+            Germany 
+            Italy
+        </h5>
+    </div>
         </div>
 
     </div>
