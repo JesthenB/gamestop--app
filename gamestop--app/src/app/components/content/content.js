@@ -1,6 +1,7 @@
 import React from "react";
 import '../../styles/content.css'
-
+import Feature from "../features";
+import "../../styles/features.css"
 
 function Content (){
     return (
@@ -8,7 +9,9 @@ function Content (){
         <div className="content-container">
         <div className="content-item image-carousel">image carousel</div>
         <div className="content-item version">version</div>
-        <div className="content-item features">features</div>
+        <div className="content-item features">
+            <Feature/>
+        </div>
         <div className="content-item product-description">product description</div>
         <div className="content-item add-to-cart">add to cart</div>
         <div className="content-item review">review</div>
